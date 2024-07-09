@@ -7,13 +7,14 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Jogo da Velha"
         android:gravity="center"
         android:textSize="50sp"
-        android:textColor="#00ff00"/>
+        android:textColor="@android:color/holo_green_light" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,24 +24,30 @@
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonZero"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonUm"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick"/>
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white"/>
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonDois"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,24 +58,30 @@
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonTres"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonQuatro"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonCinco"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <LinearLayout
@@ -79,24 +92,34 @@
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonSeis"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonSete"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
         <Button
             android:textSize="20sp"
             android:id="@+id/buttonOito"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_margin="5dp"
-            android:onClick="buttonClick" />
+            android:onClick="buttonClick"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </LinearLayout>
+
+
+
+
